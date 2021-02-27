@@ -1,12 +1,26 @@
 package com.prueba.ceiba.model;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Person {
+public class Persona implements Serializable {
+
+	private static final long serialVersionUID = 1L;
 	private long cedula;
 	private String nombre;
 	private Date fecha;
 	private String apellido;
+
+	public Persona() {
+
+	}
+
+	public Persona(long cedula, String nombre, Date fecha, String apellido) {
+		this.cedula = cedula;
+		this.nombre = nombre;
+		this.fecha = fecha;
+		this.apellido = apellido;
+	}
 
 	public long getCedula() {
 		return cedula;

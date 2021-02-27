@@ -1,12 +1,11 @@
 package com.prueba.ceiba.service;
 
-import java.util.List;
-
-import com.prueba.ceiba.model.Person;
+import com.prueba.ceiba.model.Persona;
+import com.prueba.ceiba.model.Respuesta;
 
 public interface IPersonaService {
 	
-	public void registrarPersona(Person persona);
-	public List<Person> getPersonas();
+	public Respuesta registrarPersona(Persona persona);
+	public Respuesta getPersonas();
 
 }
