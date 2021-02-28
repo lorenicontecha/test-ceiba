@@ -22,6 +22,8 @@ public class PersonaController {
 
 	@Autowired
 	private IPersonaService personaService;
+	
+	//API que se enviar a guardar la persona
 
 	@PostMapping("/addPerson")
 	public Respuesta addPerson(@RequestBody Persona person,  HttpServletResponse response) {
@@ -29,6 +31,8 @@ public class PersonaController {
 		response.setStatus(respuesta.getCodigoHttp());
 		return respuesta;
 	}
+
+	//API que se encarga de traer la información de la persona
 
 	@GetMapping("/getPerson")
 	public Respuesta getPerson( HttpServletResponse response) {

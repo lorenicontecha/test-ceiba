@@ -48,7 +48,7 @@ public class PersonaServiceImpl implements IPersonaService {
 			personaRepository.save(personaEntity);
 			return new Respuesta(HttpStatus.OK.value(), PersonaConstantes.MENSAJE_OK, new ArrayList<>());
 		} catch (Exception e) {
-			return new Respuesta(HttpStatus.BAD_REQUEST.value(), PersonaConstantes.MENSAJE_EDAD_INCORRECTA,
+			return new Respuesta(HttpStatus.BAD_REQUEST.value(), PersonaConstantes.MENSAJE_ERROR_NO_ESPERADO,
 					new ArrayList<>());
 		}
 
