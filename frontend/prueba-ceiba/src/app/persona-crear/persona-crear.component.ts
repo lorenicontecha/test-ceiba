@@ -16,11 +16,31 @@ export class PersonaCrearComponent implements OnInit {
   public nombresG;
   public apellidosG;
   public fechaG;
+  public guardar;
+  public error;
+  public mensajeError;
 
   constructor(public personaServicio:PersonaServicio) { }
 
   ngOnInit(): void {
 
+  }
+
+  public cambiarGuardar() {
+    setTimeout(() => {
+      this.guardar = false
+    }, 4000);
+  }
+
+  public cambiarError() {
+    setTimeout(() => {
+      this.error = false
+    }, 4000);
+  }
+
+  public setearError(error: boolean, mensaje: string) {
+    this.error = error;
+    this.mensajeError = mensaje;
   }
 
   guardarPersona() {
@@ -31,11 +51,18 @@ export class PersonaCrearComponent implements OnInit {
     this.personaServicio.guardarPersonas(persona).subscribe(
       suc => {
         if (suc["codigoHttp"] === 200) {
-          console.log("Bien");
+          this.guardar = true;
+          this.cambiarGuardar();
+        }else{
+          this.setearError(true, suc["mensaje"]);
+          console.log("error: ",this.error);
+          this.cambiarError();
         }
       },
       err => {
-        console.log(err);
+        this.setearError(true, err.error.mensaje);
+        console.log("error: ",this.error);
+        this.cambiarError();
       }
     );
   }

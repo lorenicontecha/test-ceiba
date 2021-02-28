@@ -2,7 +2,19 @@
     <form class="pt-5">
         <h5>Registro de Persona</h5>
 
+        <div class="container">
+            <div *ngIf="error" class="alert alert-danger" role="alert">
+                {{mensajeError}}
+            </div>
+        </div>
         
+        <br>
+        
+        <div class="container">
+            <div *ngIf="guardar" class="alert alert-success" role="alert">
+                Se guardó correctamente.
+            </div>
+        </div>
             <div class="row">
                 <span>Nombre: </span>
                 <div class="col-12">
@@ -23,7 +35,7 @@
             </div>
             <div class="col-12 pt-3">
                 <button type="button" (click)="guardarPersona()" class="btn btn-primary text-right">Guardar</button>
-            </div>
+            </div>            
 
     </form>
 </div>
