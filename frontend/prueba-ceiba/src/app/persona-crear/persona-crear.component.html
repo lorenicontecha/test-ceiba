@@ -1,0 +1,29 @@
+<div class="container">
+    <form class="pt-5">
+        <h5>Registro de Persona</h5>
+
+        
+            <div class="row">
+                <span>Nombre: </span>
+                <div class="col-12">
+                    <input type="text" [(ngModel)]="nombresG" name="nombresG" />
+                </div>
+                <span>Apellido: </span>
+                <div class="col-12">
+                    <input type="text" [(ngModel)]="apellidosG" name="apellidosG" />
+                </div>
+                <span>Cédula: </span>
+                <div class="col-12">
+                    <input type="number" [(ngModel)]="cedulaG" name="cedulaG" />
+                </div>
+                <span>Fecha Nacimiento: </span>
+                <div class="col-12">
+                    <dp-date-picker [(ngModel)]="fechaG" name="fechaG"></dp-date-picker>  
+                </div>
+            </div>
+            <div class="col-12 pt-3">
+                <button type="button" (click)="guardarPersona()" class="btn btn-primary text-right">Guardar</button>
+            </div>
+
+    </form>
+</div>
