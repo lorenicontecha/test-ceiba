@@ -23,7 +23,7 @@ public class PersonaMock {
 	
 	public static Persona getPersonaMockEdad17() {
 		ZoneId defaultZoneId = ZoneId.systemDefault();
-		LocalDate date = LocalDate.now().minusYears(17);
+		LocalDate date = LocalDate.now().minusYears(18);
 		Date date19year = Date.from(date.atStartOfDay(defaultZoneId).toInstant());
 		return new Persona(12346, "daniel", date19year, "prada");
 	}

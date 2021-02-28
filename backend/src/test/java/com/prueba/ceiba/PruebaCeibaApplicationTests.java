@@ -28,7 +28,7 @@ class PruebaCeibaApplicationTests {
 		
 		Respuesta respuesta = personaService.registrarPersona(persona);
 		
-		assertEquals(respuesta.getMensaje(), PersonaMock.getResponseMockMayor18().getMensaje());
+		assertEquals(respuesta.getMensaje(), PersonaMock.getResponseCorrecto().getMensaje());
 		
 	}
 	
@@ -48,7 +48,7 @@ class PruebaCeibaApplicationTests {
 		
 		Respuesta respuesta = personaService.registrarPersona(persona);
 		
-		assertEquals(respuesta.getMensaje(), PersonaMock.getResponseCorrecto().getMensaje());
+		assertEquals(respuesta.getMensaje(), PersonaMock.getResponseMockMayor18().getMensaje());
 		
 	}
 

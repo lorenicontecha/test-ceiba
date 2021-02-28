@@ -62,7 +62,7 @@ public class PersonaServiceImpl implements IPersonaService {
 	private boolean edadValida(Persona person) {
 		if (person != null) {
 			Integer edad = calcularEdad(person);
-			return edad != null && edad < PersonaConstantes.EDAD_MAXIMA;
+			return edad != null && edad > PersonaConstantes.EDAD_MAXIMA;
 		}
 
 		return false;

@@ -585,7 +585,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function PersonaCrearComponent_div_5_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 16);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -593,8 +593,8 @@ function PersonaCrearComponent_div_5_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", ctx_r0.mensajeError, " ");
 } }
-function PersonaCrearComponent_div_8_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 13);
+function PersonaCrearComponent_div_7_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, " Se guard\u00F3 correctamente. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } }
@@ -639,7 +639,7 @@ class PersonaCrearComponent {
     }
 }
 PersonaCrearComponent.ɵfac = function PersonaCrearComponent_Factory(t) { return new (t || PersonaCrearComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_Servicios_persona_servicios__WEBPACK_IMPORTED_MODULE_2__["PersonaServicio"])); };
-PersonaCrearComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: PersonaCrearComponent, selectors: [["app-persona-crear"]], decls: 29, vars: 6, consts: [[1, "container"], [1, "pt-5"], ["class", "alert alert-danger", "role", "alert", 4, "ngIf"], ["class", "alert alert-success", "role", "alert", 4, "ngIf"], [1, "row"], [1, "col-12"], ["type", "text", "name", "nombresG", 3, "ngModel", "ngModelChange"], ["type", "text", "name", "apellidosG", 3, "ngModel", "ngModelChange"], ["type", "number", "name", "cedulaG", 3, "ngModel", "ngModelChange"], ["name", "fechaG", 3, "ngModel", "ngModelChange"], [1, "col-12", "pt-3"], ["type", "button", 1, "btn", "btn-primary", "text-right", 3, "click"], ["role", "alert", 1, "alert", "alert-danger"], ["role", "alert", 1, "alert", "alert-success"]], template: function PersonaCrearComponent_Template(rf, ctx) { if (rf & 1) {
+PersonaCrearComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: PersonaCrearComponent, selectors: [["app-persona-crear"]], decls: 30, vars: 6, consts: [[1, "container"], [1, "pt-5"], ["class", "alert alert-danger", "role", "alert", 4, "ngIf"], ["class", "alert alert-success", "role", "alert", 4, "ngIf"], [1, "form-outline", "mb-4"], ["for", "formNombre", 1, "form-nombre"], ["type", "text", "name", "nombresG", 1, "form-control", 3, "ngModel", "ngModelChange"], ["for", "formApellido", 1, "form-apellido"], ["type", "text", "name", "apellidosG", 1, "form-control", 3, "ngModel", "ngModelChange"], ["for", "formCedula", 1, "form-cedula"], ["type", "number", "name", "cedulaG", 1, "form-control", 3, "ngModel", "ngModelChange"], [1, "row"], [1, "col-12"], ["for", "formFecha", 1, "form-fecha"], ["name", "fechaG", 3, "ngModel", "ngModelChange"], ["type", "button", 1, "btn", "btn-primary", "btn-block", "mb-4", "pt-3", 3, "click"], ["role", "alert", 1, "alert", "alert-danger"], ["role", "alert", 1, "alert", "alert-success"]], template: function PersonaCrearComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "form", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "h5");
@@ -648,48 +648,50 @@ PersonaCrearComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵde
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](5, PersonaCrearComponent_div_5_Template, 2, 1, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](6, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](8, PersonaCrearComponent_div_8_Template, 2, 0, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](7, PersonaCrearComponent_div_7_Template, 2, 0, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](8, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "span");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11, "Nombre: ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "label", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11, "Nombre");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](13, "input", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngModelChange", function PersonaCrearComponent_Template_input_ngModelChange_13_listener($event) { return ctx.nombresG = $event; });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "span");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](15, "Apellido: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](17, "input", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngModelChange", function PersonaCrearComponent_Template_input_ngModelChange_17_listener($event) { return ctx.apellidosG = $event; });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "input", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngModelChange", function PersonaCrearComponent_Template_input_ngModelChange_12_listener($event) { return ctx.nombresG = $event; });
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](18, "span");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](19, "C\u00E9dula: ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](13, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "label", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](15, "Apellido");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](20, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](21, "input", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngModelChange", function PersonaCrearComponent_Template_input_ngModelChange_21_listener($event) { return ctx.cedulaG = $event; });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](22, "span");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](23, "Fecha Nacimiento: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](24, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](25, "dp-date-picker", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngModelChange", function PersonaCrearComponent_Template_dp_date_picker_ngModelChange_25_listener($event) { return ctx.fechaG = $event; });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "input", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngModelChange", function PersonaCrearComponent_Template_input_ngModelChange_16_listener($event) { return ctx.apellidosG = $event; });
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](17, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](18, "label", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](19, "C\u00E9dula");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](26, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](27, "button", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function PersonaCrearComponent_Template_button_click_27_listener() { return ctx.guardarPersona(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](28, "Guardar");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](20, "input", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngModelChange", function PersonaCrearComponent_Template_input_ngModelChange_20_listener($event) { return ctx.cedulaG = $event; });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](21, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](22, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](23, "label", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](24, "Fecha");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](25, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](26, "dp-date-picker", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngModelChange", function PersonaCrearComponent_Template_dp_date_picker_ngModelChange_26_listener($event) { return ctx.fechaG = $event; });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](27, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](28, "button", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function PersonaCrearComponent_Template_button_click_28_listener() { return ctx.guardarPersona(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](29, "Guardar");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -697,7 +699,7 @@ PersonaCrearComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵde
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.error);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.guardar);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngModel", ctx.nombresG);
@@ -705,7 +707,7 @@ PersonaCrearComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵde
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngModel", ctx.apellidosG);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngModel", ctx.cedulaG);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](6);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngModel", ctx.fechaG);
     } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_3__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgForm"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgModel"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NumberValueAccessor"], ng2_date_picker__WEBPACK_IMPORTED_MODULE_5__["DatePickerComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJwZXJzb25hLWNyZWFyLmNvbXBvbmVudC5jc3MifQ== */"] });
 
