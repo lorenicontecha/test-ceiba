@@ -1,4 +1,4 @@
-package com.prueba.ceiba.model;
+package com.prueba.ceiba.dto;
 
 import java.io.Serializable;
 import java.util.Date;

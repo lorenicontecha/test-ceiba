@@ -2,8 +2,8 @@ package com.prueba.ceiba.converter;
 
 import org.springframework.stereotype.Component;
 
+import com.prueba.ceiba.dto.Persona;
 import com.prueba.ceiba.entity.PersonaEntity;
-import com.prueba.ceiba.model.Persona;
 
 @Component
 public class PersonaConversor {

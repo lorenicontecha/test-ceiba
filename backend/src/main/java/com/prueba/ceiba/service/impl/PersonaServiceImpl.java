@@ -14,9 +14,9 @@ import org.springframework.stereotype.Service;
 
 import com.prueba.ceiba.constantes.PersonaConstantes;
 import com.prueba.ceiba.converter.PersonaConversor;
+import com.prueba.ceiba.dto.Persona;
+import com.prueba.ceiba.dto.Respuesta;
 import com.prueba.ceiba.entity.PersonaEntity;
-import com.prueba.ceiba.model.Persona;
-import com.prueba.ceiba.model.Respuesta;
 import com.prueba.ceiba.repository.IPersonaRepository;
 import com.prueba.ceiba.service.IPersonaService;
 

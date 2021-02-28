@@ -7,9 +7,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import com.prueba.ceiba.dto.Persona;
+import com.prueba.ceiba.dto.Respuesta;
 import com.prueba.ceiba.mock.PersonaMock;
-import com.prueba.ceiba.model.Persona;
-import com.prueba.ceiba.model.Respuesta;
 import com.prueba.ceiba.service.IPersonaService;
 
 @SpringBootTest

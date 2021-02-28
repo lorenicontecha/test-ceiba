@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.prueba.ceiba.model.Persona;
-import com.prueba.ceiba.model.Respuesta;
+import com.prueba.ceiba.dto.Persona;
+import com.prueba.ceiba.dto.Respuesta;
 import com.prueba.ceiba.service.IPersonaService;
 
 @RestController
